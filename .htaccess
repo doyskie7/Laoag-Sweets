@@ -1,0 +1,9 @@
+# ---- Establish a suctom 404 File not found ----
+
+ErrorDocument 404 /nofilefound.php
+IndexIgnore *
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

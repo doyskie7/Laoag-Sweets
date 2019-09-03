@@ -1,0 +1,29 @@
+
+<style>
+  a{
+    color: blue;
+  }
+  img{
+    display: block;
+    height: 150px;
+    width: 150px;
+  }
+#b{
+
+	font-family: tahoma;
+
+}
+#service{
+  letter-spacing: 8px;
+  padding-bottom: 
+
+}
+</style>
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+
+
